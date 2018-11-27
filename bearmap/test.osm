@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.4">
+	<bounds minlat="37.821" minlon="-122.3269999" maxlat="37.893" maxlon="-122.1889997"/>
+	<node id="61" lat="37.8213443" lon="-122.2974753" version="1"/>
+	<node id="62" lat="37.8696081" lon="-122.2664173" version="1"/>
+	<node id="63" lat="37.8697971" lon="-122.2664333" version="1"/>
+	<node id="111" lat="37.8256215" lon="-122.3080595" version="1"/>
+	<node id="333" lat="37.8255601" lon="-122.3086522" version="1"/>
+	<node id="67" lat="37.8694985" lon="-122.2671927" version="1"/>
+	<node id="68" lat="37.8318559" lon="-122.2933573" version="1"/>
+	<node id="69" lat="37.8696404" lon="-122.2661889" version="1"/>
+	<node id="000" lat="37.8327923" lon="-122.2936389" version="1"/>
+	<node id="888" lat="37.833879" lon="-122.2942075" version="1">
+	</node>
+	<way id="296976966" version="1">
+		<nd ref="61"/>
+		<nd ref="62"/>
+		<nd ref="67"/>
+		<nd ref="66"/>
+		<nd ref="111"/>
+		<nd ref="000"/>
+		<nd ref="333"/>
+		<tag k="name" v="Allston Way"/>
+		<tag k="highway" v="residential"/>
+	</way>
+
+	<way id="327897036" version="1">
+		<nd ref="000"/>
+		<nd ref="888"/>
+		<nd ref="67"/>
+		<tag k="highway" v="footway"/>
+	</way>
+
+	<way id="37061369" version="1">
+		<nd ref="111"/>
+		<nd ref="62"/>
+		<nd ref="67"/>
+		<tag k="name" v="Trumpetvine Court"/>
+		<tag k="access" v="permissive"/>
+		<tag k="highway" v="footway"/>
+	</way>
+
+	<relation id="56688" user="kmvar" uid="56190" visible="true" version="28" changeset="6947637" timestamp="2011-01-12T14:23:49Z">
+	</relation>
+</osm>
